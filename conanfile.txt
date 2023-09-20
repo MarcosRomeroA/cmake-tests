@@ -1,0 +1,12 @@
+[requires]
+fmt/10.1.1
+cxxopts/3.0.0
+spdlog/1.12.0
+catch2/2.13.9
+
+[tool_requires]
+cmake/3.27.5
+
+[generators]
+CMakeDeps
+CMakeToolchain

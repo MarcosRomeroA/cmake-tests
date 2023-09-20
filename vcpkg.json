@@ -1,0 +1,29 @@
+{
+    "name": "cmaketest",
+    "version-string": "1.0.0",
+    "dependencies": [
+        {
+            "name": "fmt",
+            "version>=": "10.1.1"
+        },
+        {
+            "name": "cxxopts",
+            "version>=": "3.0.0"
+        },
+        {
+            "name": "spdlog",
+            "version>=": "1.12.0"
+        },
+        {
+            "name": "catch2",
+            "version>=": "2.13.9"
+        }
+    ],
+    "overries": [
+        {
+            "name": "catch2",
+            "version": "2.13.9"
+        }
+    ],
+    "builtin-baseline": "7c06f2b2c8858238fbcc2b79962431e6249aa240"
+}
