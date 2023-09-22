@@ -41,7 +41,7 @@ if(ENABLE_LTO)
     include(LTO)
 endif()
 
-add_git_submodule(external/json)
+#add_git_submodule(external/json)
 add_git_submodule(external/vcpkg)
 
 if(USE_CPM)
